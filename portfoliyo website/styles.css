@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+sans$display=swap");
+@import url("https://fonts.googleapis.com/css2?family=source+code+pro:wght@300$display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(241, 234, 234);
+  width: 434px;
+  font-family: "Fira sans", sans-serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color: rgba(195, 35, 190, 0.47); */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "source code pro", monospace;
+}
+.hello {
+  font-size: 65px;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Fira sans", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreaboout {
+  margin-top: 23px;
+  font-size: 22px;
+  font-family: "Fira sans", sans-serif;
+}
+.buttons {
+  margin-top: 34px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3 px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0s;
+}
+.btn :hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.devpic img {
+  height: 58vh;
+}
+.contactform {
+  padding: 0 34px;
+  padding-top: 144px;
+
+  font-family: "Fira sans", sans-serif;
+}
+.contactform h1 {
+  font-family: "source code pro", monospace;
+  padding: 12px 0;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailhelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check-input {
+  width: 24px;
+  margin: 3px 0;
+}
+.blog item {
+  margin: 20px;
+  font-family: "Fira sans", sans-serif;
+}
+.blog item h2 {
+  font-family: "Fira sans", sans-serif;
+  margin: 23px;
+}
+.blog item h2 {
+  font-family: "source code pro", monospace;
+}
